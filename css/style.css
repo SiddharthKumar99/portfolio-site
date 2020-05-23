@@ -1,0 +1,135 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+/* Globle */
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+.button_1{
+    background-color: rgb(201, 88, 23);
+    height: 38px;
+    border: none;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+.dark{
+    background-color:  #35424a;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+/* Header */
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid rgb(211, 92, 23);
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0px;
+}
+header nav{
+    float: right;
+    margin-bottom: 50px;
+}
+header .highlight, header .current a{
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+}
+header a:hover{
+    color: gray;
+    font-weight: bold;
+}
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url("../img/showcase.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: white;
+}
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+/* Newsletter */
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* Boxes */
+.boxes{
+    margin-top: 50px;
+}
+#box_container{
+    display: flex;
+}
+#box_container .box{
+    padding: 20px;
+    text-align: center;
+}
+#box_container .box img{
+    width: 90px;
+}
+/* Services */
+ul#services li{
+    list-style-type: none;
+    padding: 20px;
+    border: gray solid 2px;
+    margin-bottom: 5px;
+    background: rgb(197, 194, 194);
+}
+
+/* Footer */
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(189, 91, 35);
+    text-align: center;
+}
+aside#sidebar{
+    margin: 20px;
+    padding: 20px;
+    
+}
