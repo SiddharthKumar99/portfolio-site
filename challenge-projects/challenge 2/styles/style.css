@@ -1,0 +1,205 @@
+/***********    Global styling        ***********************/
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url('../img/bg-header-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  color: hsl(201, 11%, 66%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/*  main styling   */
+header{
+  padding-top: 150px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+h1, h2, h3{
+  color: hsl(210, 10%, 33%);
+}
+h1{
+  font-size: 1.7rem;
+}
+h2{
+  font-size: 1.5rem;
+}
+h3{
+  font-size: 1.2rem;
+}
+.text-article {
+  width: 80%;
+  margin: 0 auto 60px auto;
+}
+.downloading-sec{
+  margin-bottom: 150px;
+}
+.download-btn1{
+  background: hsl(171, 66%, 44%);
+  border-radius: 35px;
+  box-shadow: 1px 2.5px #049284;
+  color: white;
+  display: block;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.3rem;
+  
+  width: 100%;
+}
+.download-btn2{
+  background: hsl(233, 100%, 69%);
+  border-radius: 35px;
+  box-shadow: 1px 2.5px #4b5deb;
+  color: white;
+  display: block;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.3rem;
+  
+  width: 100%;
+}
+
+.main-images{
+  width: 80%;
+  margin: 40px auto;
+}
+
+#brand-images{
+  margin: 100px auto;
+}
+.brand-img{
+  margin: 30px auto;
+}
+
+#brand-footer{
+  background: hsl(210, 12%, 97%);
+  width: 100%;
+  padding: 35px;
+}
+.brand-logo{
+  width: 70px;
+  margin: 30px auto;
+}
+#footer-links{
+  margin-bottom: 30px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  padding: 10px;
+}
+ul li a{
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+}
+.btn-container a{
+  text-decoration: none;
+}
+.download-btn1:hover{
+  background-color: hsl(171, 47%, 60%);
+}
+.download-btn2:hover{
+  background-color: hsl(233, 68%, 70%);
+}
+#footer-links a:hover{
+  color: #04c0ad;
+}
+#social-links a{
+  margin: 20px;
+}
+@media (min-width: 700px){
+  body{
+    background-image: url('../img/bg-header-desktop.png');
+  }
+  header{
+    padding-top: 70px;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.7rem;
+  }
+  h3{
+    font-size: 1.3rem;
+  }
+  .text-article{
+    width: 60%;
+  }
+  .btn-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+  }
+  .download-btn1{
+    margin-right: 20px;
+  }
+  #main-part{
+    display: flex;
+    margin-bottom: 100px;
+  } 
+  #apple-desk{
+    flex: 1;
+    width: 50%;
+    position: relative;
+    right: 30px;
+    margin: 0;
+  }
+  #device-img{
+    width: 60%;
+  }
+  #main-downloading-sec{
+    margin: auto;
+    text-align: left;
+    flex: 1;
+  }
+  .container{
+    display: flex;
+  }
+  .img-section{
+    flex: 1;
+  }
+  #brand-images{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer{
+    display: flex;
+  }
+  #footer-links{
+    margin: auto 30px auto 50px;
+    flex: 2 ;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul li{
+    padding-right: 40px;
+  }
+  #social-links{
+    margin: auto;
+  }
+  /* .footer-logo{
+    flex: 1;
+  } */
+  #social-links i{
+    color: black;
+  }
+  #social-links a:hover i{
+    color: hsl(171, 66%, 44%);
+  }
+}
