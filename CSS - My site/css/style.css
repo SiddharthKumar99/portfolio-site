@@ -20,6 +20,9 @@ header{
   top: 60px;
   left: 25%;
 }
+#bottom-img{
+  width: 100%;
+}
 /* #my-name{
   margin: 100px auto 0 auto;
   padding: 0;
