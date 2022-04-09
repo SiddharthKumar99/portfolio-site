@@ -82,14 +82,14 @@ h3.least-heading , a{
 }
 .profile{
   margin: 100px auto;
-  width: 50%;
+  width: 80vw;
 }
 .profile .sub-heading{
-  margin: 50px;
+  margin: 50px auto;
   
 }
 .profile p{
-  width: 50%;
+  width: 60vw;
   margin: auto;
 }
 p{
