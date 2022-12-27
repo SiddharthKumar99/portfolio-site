@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeCademy Learnings</title>
+  </head>
+  <body>
+    <!-- this is the use of body tag. this is the 3rd lesson in CodeCademay -->
+    <p>
+      "Life is very short and what we have to do must be done in the now." -
+      Audre Lorde
+    </p>
+    <div id="html-structure">
+      <h2>HTML Structure</h2>
+      <p>
+        HTML is organized as a collection of family tree relationships. As you
+        saw in the last exercise, we placed
+        <code><mark>&lt;p&gt;</mark></code> tags within
+        <code><mark>&lt;body&gt;</mark></code> tags. When an element is
+        contained inside another element, it is considered the <em>child</em> of
+        that element. The child element is said to be <em>nested</em> inside of
+        the <em>parent</em> element.
+      </p>
+      <div class="html-codes">
+        <code>
+          <pre>
+          &lt;body&gt;
+            &lt;p&gt;This paragraph is a child of the body&lt;/p&gt;
+          &lt;/body&gt;
+        </pre
+          >
+        </code>
+      </div>
+      <p>
+        In the example above, the <code><mark>&lt;p&gt;</mark></code> element is
+        nested inside the <code><mark>&lt;body&gt;</mark></code> element. The
+        <code><mark>&lt;p&gt;</mark></code> element is considered a child of the
+        <code><mark>&lt;body&gt;</mark></code> element, and the
+        <code><mark>&lt;body&gt;</mark></code> element is considered the parent.
+        You can also see that we’ve added two spaces of indentation (using the
+        <span class="keys"><mark>space</mark></span> bar) for better
+        readability.
+      </p>
+      <p>
+        Since there can be multiple levels of nesting, this analogy can be
+        extended to grandchildren, great-grandchildren, and beyond. The
+        relationship between elements and their ancestor and descendent elements
+        is known as <em>hierarchy</em>.
+      </p>
+      <p>Let’s consider a more complicated example that uses some new tags:</p>
+      <div class="html-codes">
+        <code>
+          <pre>
+          &lt;body&gt;
+            &lt;div&gt;
+              &lt;h1&gt;Sibling to p, but also grandchild of body&lt;/h1&gt;
+              &lt;p&gt;Sibling to h1, but also grandchild of body&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/body&gt;
+        </pre
+          >
+        </code>
+      </div>
+      <p>
+        In this example, the <code><mark>&lt;body&gt;</mark></code> element is
+        the parent of the <code><mark>&lt;div&gt;</mark></code> element. Both
+        the <code><mark>&lt;h1&gt;</mark></code> and
+        <code><mark>&lt;p&gt;</mark></code> elements are children of the
+        <code><mark>&lt;div&gt;</mark></code> element. Because the
+        <code><mark>&lt;h1&gt;</mark></code> and
+        <code><mark>&lt;p&gt;</mark></code> elements are at the same level, they
+        are considered siblings and are both grandchildren of the
+        <code><mark>&lt;body&gt;</mark></code> element.
+      </p>
+      <p>
+        Understanding HTML hierarchy is important because child elements can
+        inherit behavior and styling from their parent element. You’ll learn
+        more about webpage hierarchy when you start digging into CSS.
+      </p>
+    </div>
+
+    <div id="html-headings">
+      <h2>Headings</h2>
+      <p>
+        Headings in HTML are similar to headings in other types of media. For
+        example, in newspapers, large headings are typically used to capture a
+        reader’s attention. Other times, headings are used to describe content,
+        like the title of a movie or an educational article.
+      </p>
+      <p>
+        HTML follows a similar pattern. In HTML, there are six different
+        <em>headings</em>, or <em>heading elements</em>.
+        <a
+          href="https://www.codecademy.com/resources/docs/html/headings?page_ref=catalog"
+          target="_blank"
+          >Headings
+        </a>
+        can be used for a variety of purposes, like titling sections,
+        articles,or other forms of content.
+      </p>
+    </div>
+  </body>
+</html>

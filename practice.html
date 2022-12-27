@@ -20,6 +20,18 @@
       sizes="16x16"
       href="img/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      td,
+      table {
+        border: 2px solid rgb(235, 168, 168);
+        color: rgb(15, 9, 27);
+        text-transform: capitalize;
+      }
+      thead {
+        color: white;
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
     <p>I'm going to record my parctice , html Elemnts alphabetically</p>
@@ -38,5 +50,35 @@
         width="450"
         height="450"></iframe>
     </div>
+    <br />
+    <!-- HTML table -->
+    <table>
+      <caption>
+        <!-- caption will be always on top of the table, nomatter where you are specifying it -->
+        This is a caption of this table
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="3">Header of teable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>table item 1</td>
+          <td>table item 3</td>
+          <td>table item 2</td>
+        </tr>
+        <tr>
+          <td>table item 4</td>
+          <td>table item 5</td>
+          <td>table item 6</td>
+        </tr>
+      </tbody>
+      <!-- <caption>
+       caption will be always on top of the table, nomatter where you are specifying it 
+        This is a caption of this table
+      </caption> -->
+    </table>
+    <br />
   </body>
 </html>
