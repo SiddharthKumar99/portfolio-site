@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pracitice</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(231, 228, 226);
+      }
+      div {
+        box-shadow: 4px 5px 10px rgb(192, 184, 184);
+        border: 3px solid rgb(154, 154, 155);
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        font-size: medium;
+        font-weight: bold;
+        height: 400px;
+        letter-spacing: 1.5px;
+        margin: 20px auto;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+      h1 {
+        font-size: 1.52em;
+      }
+      p,
+      h1 {
+        width: 80%;
+      }
+      .background-color-prep {
+        background-color: rgb(69, 84, 97);
+      }
+      .background-image-prep {
+        background-image: url("/img/showcase.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      section {
+        border-radius: 7px;
+        color: white;
+      }
+      .margin-of-box {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(175, 130, 130);
+      }
+      .margin-of-box::before {
+        content: "Box model MARGIN";
+      }
+      .border-of-box {
+        width: 90%;
+        height: 350px;
+        /* width: 100%;
+        height: 100%;
+        padding: 30px; */
+        background-color: rgb(137, 170, 137);
+        margin: auto;
+      }
+      .border-of-box::before {
+        content: "Box model BORDER";
+      }
+      .padding-of-box {
+        width: 90%;
+        height: 300px;
+        /* width: 100%;
+        height: 100%;
+        padding: 30px; */
+        background-color: rgb(127, 127, 167);
+        margin: auto;
+      }
+      .padding-of-box::before {
+        content: "Box model PADDING";
+      }
+      .content-of-box {
+        width: 90%;
+        height: 250px;
+        /* width: 100%;
+        height: 100%;
+        padding: 30px; */
+        margin: auto;
+        background-color: rgb(190, 190, 190);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="background-color-prep">
+      <h1>
+        This is the normal use of CSS
+        <span style="background-color: rgb(146, 145, 145); padding: 0 10px">
+          background-color
+        </span>
+        porperty.
+      </h1>
+      <p>This div is centerd both horizontally and vertically.</p>
+      <p>This is mix of my basic understanding of css.</p>
+    </div>
+
+    <div class="background-image-prep">
+      <h1>Use of background-image</h1>
+    </div>
+
+    <div class="box-model-prep">
+      <section class="margin-of-box">
+        <section class="border-of-box">
+          <section class="padding-of-box">
+            <section class="content-of-box">
+              <h1>Representation of BOX model</h1>
+            </section>
+          </section>
+        </section>
+      </section>
+    </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>
