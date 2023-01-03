@@ -3,9 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png" />
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -25,8 +36,7 @@
               type="text"
               placeholder="Enter your name"
               class="full-width-input"
-              id="name"
-            />
+              id="name" />
           </div>
           <div class="detail">
             <label for="email">Email</label><br />
@@ -34,8 +44,7 @@
               type="email"
               placeholder="example123@email.com"
               id="email"
-              class="full-width-input"
-            />
+              class="full-width-input" />
           </div>
           <div class="detail">
             <label for="number">Age(optional)</label><br />
@@ -45,8 +54,7 @@
               class="full-width-input"
               id="number"
               min="12"
-              max="80"
-            />
+              max="80" />
           </div>
           <div class="detail">
             <label for="">Which option best describes your current role?</label
@@ -93,18 +101,45 @@
               apply)</label
             ><br />
             <div id="selecter">
-              <input type="checkbox" name="" id="" />Front-end Projects <br />
-              <input type="checkbox" name="" id="" />Back-end Projects <br />
-              <input type="checkbox" name="" id="" />Data Visualization <br />
-              <input type="checkbox" name="" id="" />Challenges <br />
-              <input type="checkbox" name="" id="" />Open Source Community
+              <input type="checkbox" name="front-end" id="front-end" />
+              <label for="front-end">Front-end Projects</label>
               <br />
-              <input type="checkbox" name="" id="" />Gitter help rooms <br />
-              <input type="checkbox" name="" id="" />Videos <br />
-              <input type="checkbox" name="" id="" />City Meetups <br />
-              <input type="checkbox" name="" id="" />Wiki <br />
-              <input type="checkbox" name="" id="" />Forum <br />
-              <input type="checkbox" name="" id="" />Additional Courses<br />
+              <input type="checkbox" name="back-end" id="back-end" />
+              <label for="back-end">Back-end Projects</label>
+              <br />
+              <input
+                type="checkbox"
+                name="data-visualization"
+                id="data-visualization" />
+              <label for="data-visualization">Data Visualization</label>
+              <br />
+              <input type="checkbox" name="challenges" id="challenges" />
+              <label for="challenges">Challenges</label>
+              <br />
+              <input type="checkbox" name="open-source" id="open-source" />
+              <label for="open-source">Open Source Community</label>
+              <br />
+              <input type="checkbox" name="gitter-room" id="gitter-room" />
+              <label for="gitter-room">Gitter help rooms</label>
+              <br />
+              <input type="checkbox" name="video" id="video" />
+              <label for="video">Videos</label>
+              <br />
+              <input type="checkbox" name="city-meetups" id="city-meetups" />
+              <label for="city-meetups">City Meetups</label>
+              <br />
+              <input type="checkbox" name="wiki" id="wiki" />
+              <label for="wiki">Wiki</label>
+              <br />
+              <input type="checkbox" name="forum" id="forum" />
+              <label for="forum">Forum</label>
+              <br />
+              <input
+                type="checkbox"
+                name="additional-courses"
+                id="additional-courses" />
+              <label for="additional-courses">Additional Courses</label>
+              <br />
             </div>
           </div>
           <div class="detail">
@@ -116,8 +151,7 @@
               rows="10"
               placeholder="Enter your comments here....."
               class="full-width-input"
-              style="border-radius: 0px"
-            ></textarea>
+              style="border-radius: 0px"></textarea>
           </div>
           <div class="button">
             <button type="submit">Submit</button>

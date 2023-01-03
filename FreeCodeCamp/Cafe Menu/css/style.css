@@ -1,11 +1,13 @@
-h1, h2, p{
-    text-align: center;
+h1,
+h2,
+p {
+  text-align: center;
 }
-body{
-    /* background-color: burlywood; */
-    /* describing comments in css */
-    /* adding background */
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+body {
+  /* background-color: burlywood; */
+  /* describing comments in css */
+  /* adding background */
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
 /* div{
     width: 300px;
@@ -16,16 +18,20 @@ body{
 }
 */
 /* now using class selector for same div element */
-.menu{
-    width: 300px;
-    width: 80%;
-    background-color: burlywood;
-    margin-right: auto;
-    margin-left: auto;
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-right: auto;
+  margin-left: auto;
 }
-.flavor{
-    text-align: left;
+.item p {
+  display: inline-block;
 }
-.price{
-    text-align: right;
+.flavor {
+  text-align: left;
+  width: 75%;
+}
+.price {
+  text-align: right;
+  width: 25%;
 }

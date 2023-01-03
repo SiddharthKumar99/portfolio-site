@@ -1,20 +1,21 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+body {
   background: rgb(228, 224, 224);
   color: white;
-  font-family: Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 1.5;
   letter-spacing: 1px;
   margin: 100px auto 0 auto;
   padding: 0;
-}#main{
+}
+#main {
   width: 100%;
 }
 
-#top-section{
+#top-section {
   background-color: white;
   color: rgb(151, 148, 148);
   width: 60%;
@@ -23,33 +24,32 @@ body{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.top-heading{
+.top-heading {
   color: hsl(179, 62%, 43%);
-  
 }
-h2.sub-heading{
+h2.sub-heading {
   color: hsl(71, 73%, 54%);
   font-size: 1.3rem;
 }
-#top-sec-para{
-  opacity: .7;
+#top-sec-para {
+  opacity: 0.7;
   font-size: 1.08rem;
 }
-#mid-section{
+#mid-section {
   background: hsl(179, 62%, 43%);
   padding: 25px;
   width: 60%;
   margin: auto;
 }
-span.price{
+span.price {
   font-size: 3.3rem;
   margin: 0px auto;
 }
-span.per-month{
-  opacity: 0.5; 
-  margin: 0px auto
+span.per-month {
+  opacity: 0.5;
+  margin: 0px auto;
 }
-#button{
+#button {
   background: hsl(71, 73%, 54%);
   width: 100%;
   font-size: 16px;
@@ -58,65 +58,66 @@ span.per-month{
   border: none;
   color: white;
 }
-#last-section{
-  background: rgba(42, 178, 175,0.75);
+#last-section {
+  background: rgba(42, 178, 175, 0.75);
   margin: auto;
   width: 60%;
   padding: 25px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-ul{
+ul {
   list-style-type: none;
   padding: 0;
-  opacity: .7;
+  opacity: 0.7;
 }
-footer{
+footer {
   background-color: rgb(94, 153, 180);
   width: 100%;
   padding: 30px;
-  text-align: center; 
+  text-align: center;
   margin-top: 60px;
   font-size: 1.3rem;
 }
-a{
+a {
   text-decoration: none;
 }
- @media (min-width: 600px) {
-  #top-section{
+@media (min-width: 600px) {
+  #top-section {
     width: 80%;
   }
-  #container{
+  #container {
     width: 80%;
     margin: auto;
     display: flex;
   }
-  #mid-section{
+  #mid-section {
     flex: 1;
     margin: 0;
     border-bottom-left-radius: 10px;
   }
-  #last-section{
+  #last-section {
     flex: 1;
     border-bottom-left-radius: 0;
     margin: 0;
   }
-} 
-@media (max-width: 315px) {
-  
-  #top-section{
-    width: 100%;
+}
+@media (max-width: 325px) {
+  #top-section,
+  #mid-section,
+  #last-section {
+    width: 85%;
     padding: 15px;
   }
-  #mid-section{
-    width: 100%;
+  /* #mid-section {
+    width: 85%;
     padding: 15px;
   }
-  #last-section{
-    width: 100%;
+  #last-section {
+    width: 85;
     padding: 15px;
-  }
-  footer{
-    padding: 20px;
+  } */
+  footer {
+    padding: 15px;
   }
 }
