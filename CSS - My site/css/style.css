@@ -1,148 +1,116 @@
-body{
-  /* background: rgb(170, 145, 145); */
+*,
+*::after,
+*::before{
   margin: 0;
-  font-family: 'Merriweather', serif;
-  text-align: center;
+  padding: 0;
   box-sizing: border-box;
-  font-size: 1.2rem;
+  max-width: 100%;
 }
-header{
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+/*
+.container{
   background-color: rgb(237, 255, 250);
+  max-width: 100%;
+  height: 65vh;
   position: relative;
+  text-align: center;
 }
-#mid-cloud{
- position: relative;
- right: 25vw;
- top: 25px;
+.top-cloud{
+  position: absolute;
+  top: 8%;
+  right: 9%;
 }
-#top-cloud{
+.mid-cloud{
   position: relative;
-  top: 6vh;
-  left: 25%;
+  top: 20px;
+  left: -25%;
+
 }
-#bottom-img{
-  width: 80vw;
+.mountain-img{
   display: block;
-  margin: 5vh auto 0 auto;
+  max-width: 100%;
+  margin: auto;
+  position: absolute;
+  bottom: 0px;
 }
-/* #my-name{
-  margin: 100px auto 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-} */
-h1{
+.information{
+  padding-top: 130px;
+  max-width: 100%;
+}
+.information h1{
+  font-size: 5.5rem;
   font-family: 'Sacramento', cursive;
-  font-size: 10vh;
-  margin: 12vh auto 0 auto;
   color: #66BFBF;
-  line-height: .8;
+  line-height: 1;
 }
-h2{
-  font-size: 6vh;
-  margin: 0 auto;
-  padding: 0;
+.information p{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
   color: #66BFBF;
-  font-weight: normal;
-  font-family: 'Montserrat', sans-serif;
-
 }
-h3.least-heading , a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.pro{
+.information p span{
   text-decoration: underline;
 }
-.skill-images{
-  width: 25%;
+
+*/
+body{
+  text-align: center;
 }
 
-.skill-row{
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+.container{
+  background-color: rgb(237, 255, 250);
+  max-width: 100%;
+  height: 80vh;
+  margin-bottom: 100px;
 }
-.html-skill{
-  float: left;
-  margin-right: 30px;
-}
-.css-skill{
-  float: right;
-  margin-left: 30px;
-}
-.js-skill{
-  float: left;
-  margin-right: 30px;
-}
-.python-skill{
-  float: right;
-  margin-left: 30px;
-}
-.profile{
-  margin: 100px auto;
-  width: 80vw;
-}
-.profile .sub-heading{
-  margin: 50px auto;
-  
-}
-.profile p{
-  width: 60vw;
-  margin: auto;
-}
-p{
-  font-size: 1rem;
-  color: #414242;
-}
-hr{
-  border: 7px dotted rgb(241, 235, 235);
-  border-bottom: none;
-  width: 7%;
-  margin: 80px auto;
-}
-.contact-me{
-  width: 50%;
-  margin: 80px auto;
-  line-height: 2;
-}
-a{
-  text-decoration: none;
-}
-.btn{
-  background: #19bec4;
-  border-radius: 8px;
-  color: white;
-  padding: 10px 20px;
-}
-.btn:hover{
-  background-color: #19c49f;
-}
-.bottom-container{
-  background: rgb(112, 212, 219);
-  padding: 40px;
-}
-.bottom-container p{ 
-  color: white;
-  margin-top: 40px;
-}
-.bottom-container a{
-  margin-right: 2rem;
-}
-.bottom-container a:hover{
-  color: white;
+
+.flex-container{
+  display: flex;
   position: relative;
-  animation-name: hover;
-  animation-duration: 0.1s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
 }
-@keyframes hover{
-  0%{
-    top: 0;
-  }
-  100%{
-    top: 10px;
-  }
+.only-box{
+  width: 50%;
+}
+.container{
+  text-align: center;
+}
+.top-cloud, .mid-cloud{
+  position: absolute;
+}
+.top-cloud{
+  right: 10%;
+  top: 50px;
+}
+.mid-cloud{
+  left: 10%;
+  top: 280px;
+}
+.mountain-img{
+  position: relative;
+  top: 332px;
+}
+
+/* header text formating */
+.information{
+  position: relative;
+  top: 115px;
+}
+.information h1{
+  font-size: 4rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 1.5;
+}
+.information p{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+.information p span{
+  text-decoration: underline;
 }
